@@ -1,0 +1,53 @@
+.red{
+    color: red;
+}
+
+.dddd{
+    margin-top: 20px;
+    display: flex;
+    row-gap: 5px;
+}
+.flex{
+    display: flex;
+    margin-bottom: 5px;
+}
+.email{
+    display: flex;
+    margin-right: 50px;
+}
+.city{
+    margin-right: 33px;
+}
+.days{
+    margin-right: 150px;
+    display: flex;
+}
+.tuesday{
+    margin-right: 11px;
+}
+.wednesday{
+    margin-right: 24px;
+}
+.thursday{
+    margin-right: 25px;
+}
+.friday{
+    margin-right: 11px;
+}
+.saturday{
+    margin-right: 24px;
+}
+
+.btn{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.name{
+    display: flex;
+    margin-right: 50px;
+}
+.email{
+    margin-left: 30px;
+}
+

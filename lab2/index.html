@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<p>Надайте, будь ласка інформацію про себе</p>
+<div class="flex">
+    <div class="name">Ім'я*.</div>
+    <div><input type="text" name="name_user"></div>
+</div>
+
+<div class="flex">
+    <div class="name">E-mail*.</div>
+    <div><input type="text" name="email_user"></div>
+</div>
+
+<div class="flex">
+    <div class="city">Місто*. </div>
+    <div>
+        <select name="city" size="1">
+            <option value="city1">Львів</option>
+            <option value="city1">Івано-Франківськ</option>
+            <option value="city1">Черкаси</option>
+            <option value="city1">Луцьк</option>
+            <option value="city1">Вінниця</option>
+        </select>
+    </div>
+</div>
+<div class="red">Робочі дні</div>
+<div class="red">Відмітьте дні і виберіть робочі години</div>
+<div class="red">(сума робочих годин повинна бути не більшою 40 год / тиждень)</div>
+<div class="dddd">
+    <form>
+        <div class="gap">
+            <div class="flex">
+                <div class="days">
+                    <input type="checkbox" name="Понеділок">Понеділок
+                </div>
+                <div>з <input type="text" name="time-from">
+                    по <input type="text" name="time-to">
+                </div>
+
+            </div>
+            <div class="flex">
+                <div class="days">
+                    <input type="checkbox" name="Вівторок">
+                    <div class="tuesday">Вівторок</div>
+                </div>
+                <div>з <input type="text" name="time-from">
+                    по <input type="text" name="time-to">
+                </div>
+
+            </div>
+            <div class="flex">
+                <div class="days">
+                    <input type="checkbox" name="Середа">
+                    <div class="wednesday">Середа</div>
+                </div>
+                <div>з <input type="text" name="time-from">
+                    по <input type="text" name="time-to">
+                </div>
+
+            </div>
+            <div class="flex">
+                <div class="days">
+                    <input type="checkbox" name="Четвер">
+                    <div class="thursday">Четвер</div>
+                </div>
+                <div>з <input type="text" name="time-from">
+                    по <input type="text" name="time-to">
+                </div>
+
+            </div>
+            <div class="flex">
+                <div class="days">
+                    <input type="checkbox" name="П'ятниця">
+                    <div class="friday">П'ятниця</div>
+                </div>
+                <div>з <input type="text" name="time-from">
+                    по <input type="text" name="time-to">
+                </div>
+
+            </div>
+            <div class="flex">
+                <div class="days">
+                    <input type="checkbox" name="Субота">
+                    <div class="saturday">Субота</div>
+                </div>
+                <div>з <input type="text" name="time-from">
+                    по <input type="text" name="time-to">
+                </div>
+
+            </div>
+        </div>
+        <button class="btn">Відправити</button>
+    </form>
+</div>
+
+
+</body>
+</html>

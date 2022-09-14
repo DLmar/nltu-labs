@@ -1,0 +1,22 @@
+.main{
+    border: 3px;
+    float:right;
+    margin: 50px 50px;
+    width: 420px;
+}
+
+.flex{
+    display: flex;
+}
+.first{
+    background-color: blue;
+    padding: 10px;
+    width: 45%;
+}
+.second{
+    background-color: red;
+    padding: 10px;
+    width: 55%;
+}
+
+
