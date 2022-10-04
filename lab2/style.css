@@ -16,7 +16,7 @@
     margin-right: 50px;
 }
 .city{
-    margin-right: 33px;
+    margin-right: 36px;
 }
 .days{
     margin-right: 150px;
@@ -49,5 +49,9 @@
 }
 .email{
     margin-left: 30px;
+}
+
+.name-email{
+    margin-right: 33px;
 }
 

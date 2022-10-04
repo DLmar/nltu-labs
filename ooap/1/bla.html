@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    class Luggage {
+        constructor(weight=Math.random() % 20 + 1, ticket_number=Math.random()) {
+            this.weight = weight;
+            this.ticket_number = ticket_number;
+        }
+
+    }
+
+    class LuggageDepartment{
+        constructor(size=100, passengers=new Luggage([this.size])) {
+            this.size = size
+            this.passengers = passengers
+        }
+
+        is_available(ticket_number){
+            for (let i=0; i<100; i++){
+                if(this.passengers[i].getTicket_number() === ticket_number){
+                    return true;
+                }
+            }
+            return false;
+        }
+        getAllPassengers(){
+            let B = [this.size]
+            for (let i=0;i<100;i++){
+                B[i]=this.passengers[i].getTicket_number();
+                console.log(this.passengers[i].getTicket_number())
+            }
+            return B;
+        }
+
+    }
+
+
+
+
+    console.log('Enter a number')
+
+
+    window.prompt(Luggage.this.setTicket_number())
+
+
+    if (LuggageDepartment.this.is_available(Luggage.this.ticket_number)) {
+        console.log("Ready to issue")
+    }
+    else {
+        console.log("Eror 404 Not found")
+    }
+
+</script>
+</body>
+</html>
