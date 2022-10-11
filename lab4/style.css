@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+.wrap{
+    box-sizing: border-box;
+}
+.title{
+    width: 100%;
+    height: 600px;
+    background-image: url("bg-hero_1_0.png");
+}
+.title form{
+    width: 90%;
+
+}
+.nav_bar{
+    background-color: #2338a4;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    width: 800px;
+    height: 100px;
+}
+.content div{
+    width: 400px;
+    margin-left: 40px;
+}
+.content img {
+    width: 50px;
+    height: 50px;
+}
+.nonsense{
+    display: flex;
+    justify-content: center;
+
+}
+.something{
+    margin-top: 80px;
+    margin-left: 120px;
+    width: 400px;
+    height: 300px;
+}
+
+.list img{
+    margin-top: 50px;
+    width: 100%;
+    height: 700px;
+}
+.chips img{
+    width: 100%;
+    height: 600px;
+}
+.chh img{
+    margin-top: 90px;
+    margin-left: 5px;
+    width: 400px;
+}
+.ending{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2338a4;
+
+}
+
+.ending img{
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    height: 600px;
+    width: 100%;
+}
+.ending button{
+    width:100%;
+    height:68px;
+    background-color:#323232;
+    border-bottom:2px solid #777777;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+.ending p{
+    width: 400px;
+}
+
