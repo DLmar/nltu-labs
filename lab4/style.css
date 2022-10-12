@@ -5,16 +5,14 @@
 
 .wrap{
     box-sizing: border-box;
+
 }
 .title{
     width: 100%;
     height: 600px;
     background-image: url("bg-hero_1_0.png");
 }
-.title form{
-    width: 90%;
 
-}
 .nav_bar{
     background-color: #2338a4;
 }
@@ -22,15 +20,15 @@
     display: flex;
     justify-content: center;
     margin-top: 80px;
-    width: 800px;
-    height: 100px;
+    width: 100%;
+    height: 30%;
 }
 .content div{
-    width: 400px;
+    width:30%;
     margin-left: 40px;
 }
 .content img {
-    width: 50px;
+    width: 30%;
     height: 50px;
 }
 .nonsense{
@@ -41,8 +39,8 @@
 .something{
     margin-top: 80px;
     margin-left: 120px;
-    width: 400px;
-    height: 300px;
+    width: 40%;
+    height: 40%;
 }
 
 .list img{
@@ -57,7 +55,7 @@
 .chh img{
     margin-top: 90px;
     margin-left: 5px;
-    width: 400px;
+    width: 100%;
 }
 .ending{
     display: flex;
@@ -83,6 +81,6 @@
     filter: alpha(opacity=90);
 }
 .ending p{
-    width: 400px;
+    width: 70%;
 }
 
